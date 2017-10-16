@@ -1,0 +1,22 @@
+{
+  "name": "multiroom_chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jorge",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "consign": "^0.1.2",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "express-validator": "^2.20.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
